@@ -29,7 +29,9 @@ Analizziamo infine la classe Feature. Quest'ultima ha come attributi type (una S
 La classe FeatureProperties possiede a sua volta 21 attributi (tutti stringhe).
 
 Dopo aver creato tutto ciò, la classe GSON tramite il metodo
-      << FeatureCollection featureCollection = gson.fromJson(reader, FeatureCollection.class); >>
+```java
+FeatureCollection featureCollection = gson.fromJson(reader, FeatureCollection.class);
+```
 è in grado di salvare tutto il file di dati all'interno di “featureCollection”.
 
 ### Grafico ###
